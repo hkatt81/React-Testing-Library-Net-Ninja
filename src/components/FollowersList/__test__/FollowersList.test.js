@@ -31,7 +31,7 @@ describe("FollowersList", () => {
   it('Should render a follower item 0', async () => {
     render(<MockFollowersList />);
     const followerDivElement = await screen.findByTestId("follower-item-0")
-    screen.debug()
+    //screen.debug()
     expect(followerDivElement).toBeInTheDocument();
   });
 
